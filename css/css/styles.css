@@ -1,90 +1,97 @@
-/* Page background */
+/* Background for entire page */
 body {
-    background-color: #f5f0e6;
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 20px;
+   background-color: #f5f0e6;
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   padding: 20px;
 }
 
-/* Headers */
+/* Header styles */
 h1 {
-    color: darkblue;
-    font-size: 36px;
-    margin-bottom: 15px;
+   color: darkblue;
+   font-size: 36px;
+   margin-bottom: 15px;
 }
 
 h2 {
-    color: darkred;
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+   color: darkred;
+   font-size: 28px;
+   margin-top: 25px;
+   margin-bottom: 10px;
 }
 
 /* Paragraph styling */
 p {
-    color: #333;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 15px;
-    padding: 10px;
+   font-family: Georgia, "Times New Roman", serif;
+   font-size: 18px;
+   color: #333333;
+   line-height: 1.6;
+   margin-bottom: 15px;
+   padding: 10px;
 }
 
-/* Image styling */
-img {
-    width: 350px;
-    margin: 15px 0;
-    padding: 8px;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-}
-
-/* Caption */
+/* Caption paragraph */
 .caption {
-    font-size: 16px;
-    color: #555;
+   font-size: 16px;
+   color: #555555;
+   font-style: italic;
 }
 
 /* List styling */
 ul {
-    margin-left: 25px;
-    padding: 10px;
+   margin-left: 25px;
+   padding: 15px;
+   background-color: #fff8dc;
 }
 
 li {
-    margin-bottom: 8px;
-    color: #222;
-    font-size: 18px;
+   font-size: 18px;
+   color: #222222;
+   margin-bottom: 8px;
 }
 
 /* Link styling */
 a {
-    color: darkblue;
-    text-decoration: none;
-    font-weight: bold;
+   color: darkblue;
+   text-decoration: none;
+   font-weight: bold;
 }
 
 a:hover {
-    color: darkorange;
-    text-decoration: underline;
+   color: darkorange;
+   text-decoration: underline;
+}
+
+/* Image styling */
+img {
+   width: 350px;
+   margin: 15px 0;
+   padding: 8px;
+   border: 2px solid #ccc;
+   border-radius: 8px;
 }
 
 /* Table styling */
 table {
-    border-collapse: collapse;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 60%;
+   border-collapse: collapse;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   width: 70%;
 }
 
 th {
-    background-color: darkblue;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
+   background-color: darkblue;
+   color: white;
+   font-size: 20px;
+   padding: 10px;
 }
 
 td {
-    font-size: 18px;
-    padding: 10px;
-    border: 1px solid #ccc;
+   font-size: 18px;
+   padding: 10px;
+   border: 1px solid #999;
+}
+
+tr:nth-child(even) {
+   background-color: #eeeeee;
 }
