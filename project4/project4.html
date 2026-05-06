@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>The Stormlight Archive Books</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+   <header>
+      <h1>The Stormlight Archive</h1>
+      <p class="tagline">An epic fantasy series by Brandon Sanderson</p>
+
+      <nav>
+         <a href="../index.html">Home</a>
+         <a href="project4.html">Project 4</a>
+         <a href="../html/html/project3.html">Project 3</a>
+      </nav>
+   </header>
+
+   <main>
+      <section class="hero">
+         <div>
+            <h2>Welcome to Roshar</h2>
+            <p>
+               The Stormlight Archive is a major fantasy book series written by Brandon Sanderson. 
+               The story takes place on the storm-swept world of Roshar, where powerful storms, ancient orders, 
+               magical weapons, and deep character journeys all play an important role.
+            </p>
+            <p>
+               The series is known for its detailed worldbuilding, connected magic systems, and characters who 
+               struggle with leadership, responsibility, trauma, honor, and personal growth.
+            </p>
+         </div>
+
+         <img src="images/stormlight.jpg" alt="Fantasy-style storm clouds over a dramatic landscape">
+      </section>
+
+      <section>
+         <h2>Why Readers Enjoy the Series</h2>
+         <ul>
+            <li>Large-scale fantasy battles and political conflict</li>
+            <li>Complex characters with meaningful personal growth</li>
+            <li>Unique magic systems based around Stormlight and Radiants</li>
+            <li>Detailed worldbuilding with cultures, history, and mythology</li>
+         </ul>
+      </section>
+
+      <section class="book-grid">
+         <article>
+            <h3>The Way of Kings</h3>
+            <p>The first book introduces Kaladin, Shallan, Dalinar, and the dangerous world of Roshar.</p>
+         </article>
+
+         <article>
+            <h3>Words of Radiance</h3>
+            <p>The second book expands the Knights Radiant, the Shattered Plains, and the growing threat facing humanity.</p>
+         </article>
+
+         <article>
+            <h3>Oathbringer</h3>
+            <p>The third book focuses heavily on Dalinar’s past and the meaning of responsibility and unity.</p>
+         </article>
+
+         <article>
+            <h3>Rhythm of War</h3>
+            <p>The fourth book explores science, war, leadership, and the continuing conflict on Roshar.</p>
+         </article>
+      </section>
+
+      <section>
+         <h2>Learn More</h2>
+         <p>
+            You can learn more about the author and his books by visiting the 
+            <a href="https://www.brandonsanderson.com/" target="_blank" rel="noopener noreferrer">
+               official Brandon Sanderson website
+            </a>.
+         </p>
+         <p class="attribution">
+            Image attribution: Use your own downloaded image or a royalty-free fantasy/landscape image from 
+            Unsplash, Pexels, or Pixabay. Replace the image file with your saved image in the images folder.
+         </p>
+      </section>
+
+      <section class="interactive-box">
+         <h2>Join the Knights Radiant</h2>
+         <p>Enter your name below to receive a personalized welcome message.</p>
+
+         <form id="radiantForm">
+            <label for="visitorName">Your name:</label>
+            <input type="text" id="visitorName" name="visitorName" required>
+            <button type="submit">Get Greeting</button>
+         </form>
+
+         <div id="messageArea" aria-live="polite"></div>
+      </section>
+   </main>
+
+   <footer>
+      <p>&copy; 2026 Stormlight Archive Project Page</p>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
