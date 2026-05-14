@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenTech Solutions | Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="FINAL.html">GreenTech Solutions</a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="FINAL.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products/Services</a></li>
+        <li><a href="resources.html">Blog/Resources</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+      <button id="contrast-toggle" class="small-button" type="button">High Contrast</button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header">
+      <h1>Contact GreenTech Solutions</h1>
+      <p>Ready to make your business more sustainable? Send us a message.</p>
+    </section>
+
+    <section class="section contact-layout">
+      <form id="contact-form" class="contact-form" novalidate>
+        <h2>Contact Form</h2>
+
+        <label for="name">Full name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email address</label>
+        <input type="email" id="email" required>
+
+        <label for="interest">Area of interest</label>
+        <select id="interest" required>
+          <option value="">Choose an option</option>
+          <option>Energy-Efficient Devices</option>
+          <option>Smart Recycling Systems</option>
+          <option>Carbon Tracking Software</option>
+          <option>Sustainability Consulting</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" required></textarea>
+
+        <button class="button" type="submit">Send Message</button>
+        <p id="form-message" role="status"></p>
+      </form>
+
+      <aside class="contact-info">
+        <h2>Company Information</h2>
+        <p><strong>Email:</strong> info@greentechsolutions.com</p>
+        <p><strong>Phone:</strong> (555) 218-2040</p>
+        <p><strong>Address:</strong> 4500 Innovation Parkway, Albuquerque, NM 87101</p>
+        <p><strong>Hours:</strong> Monday-Friday, 8:00 AM-5:00 PM</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 GreenTech Solutions</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+Add these image files here:
+green-technology.jpg
+team-sustainability.jpg
+energy-device.jpg
+recycling-system.jpg
+carbon-dashboard.jpg
+sustainability-consulting.jpg

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenTech Solutions | Products and Services</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="FINAL.html">GreenTech Solutions</a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="FINAL.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="products.html">Products/Services</a></li>
+        <li><a href="resources.html">Blog/Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="contrast-toggle" class="small-button" type="button">High Contrast</button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header">
+      <h1>Products and Services</h1>
+      <p>Search our sustainable technology solutions below.</p>
+    </section>
+
+    <section class="section">
+      <label for="product-search" class="label">Search products and services:</label>
+      <input type="search" id="product-search" placeholder="Try energy, recycling, software, consulting...">
+
+      <div class="cards product-grid" id="product-list">
+        <article class="card product-card" data-keywords="energy devices smart power">
+          <img src="images/energy-device.jpg" alt="Energy-efficient smart device display showing power usage">
+          <h2>Energy-Efficient Devices</h2>
+          <p>Smart plugs, sensors, and monitoring tools that help businesses reduce energy waste.</p>
+        </article>
+
+        <article class="card product-card" data-keywords="recycling waste smart sorting">
+          <img src="images/recycling-system.jpg" alt="Smart recycling bins used for waste sorting">
+          <h2>Smart Recycling Systems</h2>
+          <p>Connected recycling stations that guide users and track waste diversion performance.</p>
+        </article>
+
+        <article class="card product-card" data-keywords="carbon tracking software emissions dashboard">
+          <img src="images/carbon-dashboard.jpg" alt="Carbon tracking dashboard displayed on a laptop">
+          <h2>Carbon Tracking Software</h2>
+          <p>Easy-to-read dashboards for measuring emissions and sustainability progress.</p>
+        </article>
+
+        <article class="card product-card" data-keywords="consulting education sustainability training">
+          <img src="images/sustainability-consulting.jpg" alt="Consultant presenting sustainability data to a business team">
+          <h2>Sustainability Consulting</h2>
+          <p>Guidance and training to help teams create realistic environmental action plans.</p>
+        </article>
+      </div>
+
+      <p id="no-results" class="hidden">No matching products found. Try a different search word.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 GreenTech Solutions</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
